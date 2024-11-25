@@ -15,7 +15,6 @@
 }
 
 .container {
-  border: 1px solid rgb(255, 0, 0);
   --max-width: 375px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
   margin-inline: auto;
@@ -28,6 +27,18 @@
 .even-columns {
   display: grid;
   gap: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.grid {
+  display: grid;
 }
 
 @media (width >= 80em) {
